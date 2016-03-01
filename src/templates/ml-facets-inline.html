@@ -7,7 +7,7 @@
         <span ng-if="!!value.name">{{ value.name | truncate:truncateLength }}</span>
         <em ng-if="!value.name">blank</em>
       </a>
-      <span>({{ value.count }})</span>
+      <span></span>
     </div>
     <div ng-if="shouldShowMore &amp;&amp; !facet.displayingAll">
       <a href ng-click="showMore({facet: facet, facetName: facet.__key})">see more ...</a>
